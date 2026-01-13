@@ -93,7 +93,7 @@
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/nexus-saas-dashboard.git
+git clone https://github.com/Aakash-cpu/nexus-saas-dashboard.git
 cd nexus-saas-dashboard
 ```
 
@@ -251,7 +251,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Aakash Sarkar**
 - Email: aakashsarkar269@gmail.com
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@Aakash-cpu](https://github.com/Aakash-cpu)
 
 ---
 
