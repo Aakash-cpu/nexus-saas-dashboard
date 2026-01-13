@@ -1,0 +1,25 @@
+{
+    "name": "nexus-backend",
+    "version": "1.0.0",
+    "description": "Nexus SaaS Dashboard Backend API",
+    "main": "src/app.js",
+    "type": "module",
+    "scripts": {
+        "start": "node --env-file=.env src/app.js",
+        "dev": "node --env-file=.env --watch src/app.js"
+    },
+    "dependencies": {
+        "express": "^4.21.1",
+        "mongoose": "^8.8.3",
+        "bcryptjs": "^2.4.3",
+        "jsonwebtoken": "^9.0.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "helmet": "^8.0.0",
+        "express-rate-limit": "^7.4.1",
+        "joi": "^17.13.3",
+        "nodemailer": "^6.9.16",
+        "stripe": "^17.3.1",
+        "uuid": "^11.0.3"
+    }
+}

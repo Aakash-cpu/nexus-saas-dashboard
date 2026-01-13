@@ -1,0 +1,3 @@
+.form-input.has-icon {
+    padding-left: calc(var(--spacing-4) + 28px);
+}

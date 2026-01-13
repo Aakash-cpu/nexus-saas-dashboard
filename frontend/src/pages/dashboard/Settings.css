@@ -1,0 +1,110 @@
+.settings-page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.settings-section {
+    margin-bottom: var(--spacing-8);
+}
+
+.settings-section h2 {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: var(--spacing-4);
+}
+
+.setting-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--spacing-4) 0;
+    border-bottom: 1px solid var(--border-secondary);
+    gap: var(--spacing-4);
+}
+
+.setting-row:last-child {
+    border-bottom: none;
+}
+
+.setting-info {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-4);
+}
+
+.setting-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-lg);
+    color: var(--text-tertiary);
+}
+
+.setting-info h3 {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-medium);
+    margin-bottom: var(--spacing-1);
+}
+
+.setting-info p {
+    font-size: var(--font-size-sm);
+    color: var(--text-tertiary);
+    margin: 0;
+}
+
+.theme-toggle-group {
+    display: flex;
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-1);
+}
+
+.theme-option {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    padding: var(--spacing-2) var(--spacing-4);
+    background: transparent;
+    border: none;
+    border-radius: var(--radius-md);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-tertiary);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.theme-option:hover {
+    color: var(--text-primary);
+}
+
+.theme-option.active {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    box-shadow: var(--shadow-sm);
+}
+
+.settings-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: var(--spacing-4);
+    margin-top: var(--spacing-4);
+}
+
+@media (min-width: 640px) {
+    .settings-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.settings-grid .form-label {
+    display: flex;
+    align-items: center;
+}
+
+select.form-input {
+    cursor: pointer;
+}
